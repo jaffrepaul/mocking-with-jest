@@ -25,8 +25,7 @@ class App extends Component {
     return (
       <div className="App">
         <ul style={{ listStyle: 'none' }}>
-          {// Loop over the object keys and render each key
-          Object.keys(user).map(key => renderLine(user, key))}
+          {Object.keys(user).map(key => renderLine(user, key))}
         </ul>
       </div>
     );
